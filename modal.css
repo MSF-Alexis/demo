@@ -11,7 +11,7 @@
 }
 
 .jpo-overlay .jpo-link {
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
   font-weight: var(--bold-weight);
 }
@@ -73,8 +73,8 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: var(--bold-weight);
-  color: var(--on-surface-var);
-  font-size: calc(var(--display-small-font-size) * 1.4);     /* très gros */
+  color: var(--primary);
+  font-size: calc(var(--display-small-font-size) * 1.4);
   line-height: calc(var(--display-small-line-height) * 1.2);
 }
 
@@ -89,7 +89,7 @@
 /* Filet */
 .jpo-frontpage-rule {
   margin: 16px 0;
-  border-top: 3px solid var(--on-surface-var);
+  border-top: 3px solid var(--primary);
 }
 
 /* Corps */
@@ -109,7 +109,7 @@
   letter-spacing: 0.10em;
   text-align: center;
   margin-bottom: 10px;
-  color: var(--on-surface-var);
+  color: var(--secondary);
 }
 
 .jpo-frontpage-text {
@@ -127,7 +127,6 @@
   padding-left: 6vw;
   padding-right: 6vw;
   gap: unset;
-  border-top: 2px solid var(--on-surface-var);
 }
 
 .jpo-frontpage-dates-title {
@@ -136,7 +135,7 @@
   text-transform: uppercase;
   letter-spacing: 0.10em;
   margin-bottom: 10px;
-  color: var(--on-surface-var);
+  color: var(--secondary);
 }
 
 .jpo-frontpage-dates-list {
